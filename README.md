@@ -1,70 +1,82 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📋 Secretaria Virtual - Frontend
 
-## Available Scripts
+Frontend do sistema de Secretaria Virtual desenvolvido para facilitar o agendamento, pagamento e registro de prontuários para psicólogos e outros profissionais de saúde. Este projeto utiliza React para fornecer uma interface de usuário intuitiva e moderna.
 
-In the project directory, you can run:
+## 📑 Índice
 
-### `npm start`
+- [Sobre o Projeto](#-sobre-o-projeto)
+- [Funcionalidades](#-funcionalidades)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Configuração e Execução](#-configuração-e-execução)
+  - [Requisitos](#requisitos)
+  - [Instalação](#instalação)
+  - [Execução do Projeto](#execução-do-projeto)
+- [Estrutura do Projeto](#-estrutura-do-projeto)
+- [Licença](#-licença)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🔎 Sobre o Projeto
 
-### `npm test`
+A **Secretaria Virtual** é um sistema voltado para psicólogos e profissionais de saúde que necessitam de uma plataforma organizada para agendamento, prontuários e pagamentos. Este frontend fornece uma interface de usuário responsiva e interativa para o sistema.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Funcionalidades
 
-### `npm run build`
+- **Autenticação de Usuário**: Login e registro seguro de usuários.
+- **Dashboard**: Acesso centralizado às funcionalidades principais.
+- **Perfil do Usuário**: Exibição e atualização dos dados do usuário.
+- **Agendamento de Consultas**: Visualização de um calendário com a possibilidade de selecionar e reservar horários disponíveis.
+- **Registro de Prontuários**: Consulta e inserção de informações no prontuário dos pacientes.
+- **Gerenciamento de Pagamentos**: Visualização do histórico de pagamentos, incluindo método de pagamento e valores.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠 Tecnologias Utilizadas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React**: Biblioteca principal para construção da interface de usuário.
+- **React Router**: Gerenciamento de rotas para navegação entre as páginas.
+- **Axios**: Realização de requisições HTTP para o backend.
+- **React Big Calendar**: Componente de calendário para visualização e reserva de horários.
+- **React Datepicker**: Seletor de datas e horários para agendamentos.
+- **CSS Customizado**: Estilização do aplicativo com um foco em cores suaves e aparência acolhedora, ideal para o ambiente de psicologia.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ⚙️ Configuração e Execução
 
-### `npm run eject`
+### Requisitos
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Node.js
+- npm ou yarn
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Instalação
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/lucaspco/SecretariaVirtual-Frontend.git
+   cd SecretariaVirtual-Frontend
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
 
-## Learn More
+### Execução do Projeto
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Abra o navegador e acesse `http://localhost:3000`.
 
-### Code Splitting
+## 📂 Estrutura do Projeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- `src/`
+  - `components/`: Componentes reutilizáveis, como botões e formulários.
+  - `pages/`: Páginas principais, incluindo Login, Registro, Dashboard, Perfil, Agendamentos, e Pagamentos.
+  - `services/`: Serviços de API para gerenciar requisições HTTP.
+  - `App.css`: Estilos globais do aplicativo.
+  - `App.js`: Configuração das rotas principais do aplicativo.
 
-### Analyzing the Bundle Size
+## 📄 Licença
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto está sob a licença MIT.
